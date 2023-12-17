@@ -4,7 +4,7 @@ This repository contains a Python script for enhancing a video using ESRGAN (Enh
 
 ## Instructions
 
-### 1. Setup
+**1. Setup**
 
 Clone the Real-ESRGAN repository and install the required libraries:
 
@@ -22,15 +22,15 @@ Clone the Real-ESRGAN repository and install the required libraries:
 !wget https://github.com/xinntao/Real-ESRGAN/releases/download/v0.1.0/RealESRGAN_x4plus.pth -P experiments/pretrained_models
 %cd ..
 
-### 2. Run the Script
+**2. Run the Script**
 
 Upload your video file using the provided code and run the video enhancement script
 
-### 3. Check the Results
+**3. Check the Results**
 
 The enhanced video with the original audio mapped will be saved in the results folder. The file will be named in the format 'enhanced_original_filename.mp4' Note that existing files in the results folder will be overwritten.
 
-## Additional Notes
+**Additional Notes**
 
 - Make sure to adjust the paths and file names in the code according to your requirements.
 - If you encounter issues, refer to the error messages and make necessary corrections.
